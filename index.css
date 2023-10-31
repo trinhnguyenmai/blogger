@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #2f454f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fx_al_jus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fx_al {
+    display: flex;
+    align-items: center;
+}
+
+.fx_jus {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_img_size {
+    width: 32px;
+    height: 32px;
+}
+
+.header_name_blogger {
+    color: #fff;
+    font-size: 20px;
+}
+
+.header_icon_nameblog {
+    gap: 5px;
+}
+
+.header_sign_in {
+    color: #fff;
+    font-size: 15px;
+}
