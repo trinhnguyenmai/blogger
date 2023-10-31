@@ -5,15 +5,20 @@
 }
 
 html {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: #2f454f;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .fx_al_jus {
@@ -35,6 +40,9 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    width: auto;
+    height: 64px;
+    margin: 0px 20px;
 }
 
 .header_img_size {
@@ -45,6 +53,7 @@ a {
 .header_name_blogger {
     color: #fff;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .header_icon_nameblog {
@@ -53,5 +62,13 @@ a {
 
 .header_sign_in {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.create_your_blog {
+    background-color: rgb(255, 165, 0);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
