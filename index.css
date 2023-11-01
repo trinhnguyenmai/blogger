@@ -85,8 +85,9 @@ a {
 }
 
 .content {
-    font-size: 16px;
-    margin: 16px 0px 80px;
+    font-size: 18px;
+    margin: 18px 0px 80px;
+    line-height: 1.66;
 }
 
 .slogan_blogger {
@@ -153,6 +154,13 @@ a {
     border: 1px solid black;
 }
 
+.box_text_six {
+    margin: 0px 118px;
+    width: 944px;
+    height: 277.44px;
+
+}
+
 .theme_seven {
     height: 695px;
     border: 1px solid black;
@@ -162,13 +170,22 @@ a {
 
 .theme_seven_map {
     position: absolute;
-    background: url(https://www.blogger.com/about/img/sections/millions/millions-map_2x.png);
-    background-size: cover;
     z-index: 1;
+    width: 100%;
+    height: 695px;
+}
+
+.theme_seven_markers {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 695px;
 }
 
 .box_text_seven {
     margin: 200px 500px 100px 500px;
+    position: absolute;
+    z-index: 3;
 }
 
 
