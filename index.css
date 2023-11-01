@@ -21,6 +21,10 @@ a {
     cursor: pointer;
 }
 
+.fx {
+    display: flex;
+}
+
 .fx_al_jus {
     display: flex;
     justify-content: center;
@@ -66,9 +70,148 @@ a {
     font-weight: 700;
 }
 
-.create_your_blog {
-    background-color: rgb(255, 165, 0);
-    border: none;
-    padding: 10px 10px;
-    border-radius: 5px;
+.theme_one {
+    height: 808px;
+    border: 1px solid black;
 }
+
+.item_al_center {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin: 30px 0px 0px;
+}
+
+.content {
+    font-size: 16px;
+    margin: 16px 0px 80px;
+}
+
+.slogan_blogger {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 150px 0px 0px;
+}
+.easily_blogger {
+    font-size: 20px;
+    margin: 12px 0px 40px;
+}
+
+.create_your_blog_first {
+    background-color: rgb(255, 140, 0);
+    border: none;
+    border-radius: 3px;
+    padding: 20px 10px;
+    width: 160px;
+    height: 50px;
+}
+
+.create_your_blog_last {
+    background-color: #1d2b34;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 10px;
+    width: 160px;
+    height: 50px;
+}
+
+.text_create_blog {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 550;
+}
+
+.theme_one {
+    height: 808px;
+    border: 1px solid black;
+}
+
+.theme_two {
+    height: 448px;
+    border: 1px solid black;
+}
+
+.theme_three {
+    height: 355px;
+    border: 1px solid black;
+}
+
+.theme_four {
+    height: 462px;
+    border: 1px solid black;
+}
+
+.theme_five {
+    height: 435px;
+    border: 1px solid black;
+}
+
+.theme_six {
+    height: 513px;
+    border: 1px solid black;
+}
+
+.theme_seven {
+    height: 695px;
+    border: 1px solid black;
+    background-color: rgb(255, 120, 0);
+    position: relative;
+}
+
+.theme_seven_map {
+    position: absolute;
+    background: url(https://www.blogger.com/about/img/sections/millions/millions-map_2x.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.box_text_seven {
+    margin: 200px 500px 100px 500px;
+}
+
+
+.footer {
+    background-color: #1d2b34;
+}
+
+.footer_support_group {
+    border-bottom: 1px solid rgb(245, 245, 245);
+    margin: 0px 150px;
+    padding: 50px 0px;
+}
+
+.footer_support_list {
+    margin: 0px 100px 0px 0px;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+
+.footer_support ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 5px 10px 0px;
+}
+
+.policy_language {
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin: 0px 150px;
+}
+
+.policy {
+    gap: 20px;
+}
+
+.slash {
+    width: 0.5px;
+    height: 10px;
+    opacity: 0.2;
+    background: white;
+}
+
+
