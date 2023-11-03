@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    background-color: #2f454f;
     color: #fff;
 }
 
@@ -70,15 +69,6 @@ a {
     font-weight: 700;
 }
 
-.theme_one {
-    height: 808px;
-    width: 100%;
-}
-
-.item_al_center {
-    text-align: center;
-}
-
 .title {
     font-size: 44px;
     margin: 36.52px 0px 0px;
@@ -94,6 +84,19 @@ a {
     font-size: 18px;
     margin: 18px 0px;
     line-height: 1.66;
+}
+
+.theme_one {
+    height: 808px;
+    background-color: ;
+}
+
+.box_text_one {
+
+}
+
+.item_al_center {
+    text-align: center;
 }
 
 .slogan_blogger {
@@ -131,37 +134,134 @@ a {
 }
 
 .theme_two {
-    padding: 100px 0px 100px 150px;
+    position: relative;
+    height: 600px;
     background-color: rgb(255, 140, 0);
+    overflow: hidden;
 }
 
 .box_text_two {
     width: 520px;
-    height: 100%;
+    margin-left: 143.062px;
+}
+
+.pencil {
+    position: absolute;
+    width: 458px;
+    height:169px;
+    right: 260px;
+    top: 40px;
+    z-index: 1;
+}
+
+.my_diy_blog {
+    position: absolute;
+    width: 844px;
+    height: 605px;
+    right: -138px;
+    bottom: -120px;
+    z-index: 1;
+}
+
+.around_the_world {
+    position: absolute;
+    width: 787px;
+    height: 565px;
+    right: -200px;
+    bottom: -230px;
+    z-index: 2;
 }
 
 .theme_three {
-    padding: 100px 0px 100px 150px;
+    position: relative;
+    height: 600px;
     background-color: rgb(165,42,42);
+    overflow: hidden;
 }
 
 .box_text_three {
     width: 510px;
-    height: 100%;
+    margin-left: 143.062px;
+}
+
+.bg_wwo {
+    position: absolute;
+    width: 929px;
+    height: 224px;
+    right: -200px;
+    bottom: 150px;
+    z-index: 1;
+}
+
+.bg_wu {
+    position: absolute;
+    width: 601px;
+    height: 361px;
+    right: -30px;
+    bottom: -20px;
+    z-index: 1;
+}
+
+.bg_y {
+    position: absolute;
+    width: 315px;
+    height: 393px;
+    right: -20px;
+    bottom: 60px;
+    z-index: 1;
 }
 
 .theme_four {
-    padding: 100px 0px 100px 700px;
+    position: relative;
+    height: 600px;
     background-color: rgb(32,178,170);
+    overflow: hidden;
 }
 
 .box_text_four {
+    position: absolute;
     width: 550px;
-    height: 100%;
+    margin-left: 600px;
+    margin-right: 600px;
+    z-index: 1;
+}
+
+.computer {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    left: 2px;
+    z-index: 2;
+}
+
+.card {
+    position: absolute;
+    width: 260px;
+    height: 258px;
+    z-index: 2;
+    right: 205px;
+    bottom: -40px;
+}
+
+.calculator {
+    position: absolute;
+    width: 280px;
+    height: 303px;
+    z-index: 3;
+    right: -15px;
+    bottom: -90px;
+}
+
+.coin {
+    position: absolute;
+    width: 75px;
+    height: 75.7px;
+    z-index: 4;
+    right: 10px;
+    bottom: 160px;
 }
 
 .theme_five {
-    padding: 100px 0px 100px 150px;
     background-color: rgb(76,111,127);
     position: relative;
     overflow: hidden;
@@ -170,6 +270,7 @@ a {
 
 .box_text_five {
     width: 500px;
+    margin-left: 143.062px;
 }
 
 .abs {
@@ -209,7 +310,7 @@ a {
     background-color: rgb(165,42,42);
     position: relative;
     overflow: hidden;
-    height: 780px;
+    height: 600px;
 }
 
 .box_text_six {
