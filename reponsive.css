@@ -1,0 +1,42 @@
+@media(max-width: 1024px) {
+    .my_diy_blog {
+        width: 600px;
+        height: 400px;
+    }
+
+    .mobile-zindex-content {
+        z-index: 10;
+    }
+}
+
+@media(max-width: 768px) {
+    .footer_support_group {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0px 50px;
+    }
+
+    .policy_language {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0px 50px;
+    }
+}
+
+@media(max-width: 576px) {
+
+}
+
+@media(max-width: 420px) {
+
+}
+
+@media(max-width: 376px) {
+
+}
+
+@media(max-width: 320px) {
+
+}

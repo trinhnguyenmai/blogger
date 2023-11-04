@@ -88,11 +88,15 @@ a {
 
 .theme_one {
     height: 808px;
-    background-color: ;
+    background-color: #388d80;
+    animation: banner linear 5s infinite;
 }
 
-.box_text_one {
-
+@keyframes banner {
+    0% {background-color: #388d80;}
+    33% {background-color: #4583aa;}
+    66% {background-color: #bc382e;}
+    100% {background-color: #388d80;}
 }
 
 .item_al_center {
@@ -110,7 +114,7 @@ a {
 }
 
 .create_your_blog_first {
-    background-color: rgb(255, 140, 0);
+    background-color: #ff8000;
     border: none;
     border-radius: 3px;
     padding: 20px 10px;
@@ -136,13 +140,15 @@ a {
 .theme_two {
     position: relative;
     height: 600px;
-    background-color: rgb(255, 140, 0);
+    background-color:#ff8000;
     overflow: hidden;
 }
 
 .box_text_two {
     width: 520px;
     margin-left: 143.062px;
+    position: absolute;
+    z-index: 3;
 }
 
 .pencil {
@@ -172,14 +178,34 @@ a {
     z-index: 2;
 }
 
+.animation_pic_two_a {
+    animation: linear pic_two_a 0.5s 1;
+}
+
+@keyframes pic_two_a {
+    0% {bottom: -100%;}
+    100% {bottom: -120px;}
+}
+.animation_pic_two_b {
+    animation: linear pic_two_b 0.5s 1;
+}
+
+@keyframes pic_two_b {
+    0% {bottom: -100%;}
+    100% {bottom: -230px;}
+}
+
+
 .theme_three {
     position: relative;
     height: 600px;
-    background-color: rgb(165,42,42);
+    background-color: #bc382e;
     overflow: hidden;
 }
 
 .box_text_three {
+    position: absolute;
+    z-index: 2;
     width: 510px;
     margin-left: 143.062px;
 }
@@ -211,10 +237,36 @@ a {
     z-index: 1;
 }
 
+.animation_pic_three_a {
+    animation: pic_three_a linear 0.7s 1;
+}
+
+@keyframes pic_three_a {
+    0% {right: -100%;}
+    100% {right: -200px;}
+}
+
+.animation_pic_three_b {
+    animation: pic_three_b linear 0.5s 1;
+}
+
+@keyframes pic_three_b {
+    0% {right:-100%;}
+    100% {right: -30px;}
+}
+.animation_pic_three_c {
+    animation: pic_three_c linear 0.9s 1;
+}
+
+@keyframes pic_three_c {
+    0% {right:-100%;}
+    100% {right: -20px;}
+}
+
 .theme_four {
     position: relative;
     height: 600px;
-    background-color: rgb(32,178,170);
+    background-color: #388d80;
     overflow: hidden;
 }
 
@@ -223,22 +275,22 @@ a {
     width: 550px;
     margin-left: 600px;
     margin-right: 600px;
-    z-index: 1;
+    z-index: 4;
 }
 
 .computer {
     position: absolute;
     width: 420px;
     height: 420px;
-    left: 2px;
-    z-index: 2;
+    left: 0px;
+    z-index: 1;
 }
 
 .card {
     position: absolute;
     width: 260px;
     height: 258px;
-    z-index: 2;
+    z-index: 1;
     right: 205px;
     bottom: -40px;
 }
@@ -247,7 +299,7 @@ a {
     position: absolute;
     width: 280px;
     height: 303px;
-    z-index: 3;
+    z-index: 2;
     right: -15px;
     bottom: -90px;
 }
@@ -256,21 +308,60 @@ a {
     position: absolute;
     width: 75px;
     height: 75.7px;
-    z-index: 4;
+    z-index: 3;
     right: 10px;
     bottom: 160px;
 }
 
+.animation_pic_four_a {
+    animation: pic_four_a linear 1s 1;
+}
+
+ @keyframes pic_four_a {
+    0% {left: 0px}
+    50% {left: -10px;}
+    100% {left: 0px;}
+ }
+
+.animation_pic_four_b {
+    animation: pic_four_b linear 0.5s 1;
+}
+
+ @keyframes pic_four_b {
+    0% {bottom: -100%}
+    100% {bottom: -40px;}
+ }
+
+.animation_pic_four_c {
+    animation: pic_four_c linear 0.5s 1;
+}
+
+ @keyframes pic_four_c {
+    0% {bottom: -100%}
+    100% {bottom: -90px;}
+ }
+
+.animation_pic_four_d {
+    animation: pic_four_d linear 0.5s 1;
+}
+
+ @keyframes pic_four_d {
+    0% {right: -10px; bottom: 120px;}
+    100% {right: 10px; bottom: 160px;}
+ }
+
 .theme_five {
-    background-color: rgb(76,111,127);
+    background-color: #577783;
     position: relative;
     overflow: hidden;
     height: 600px;
 }
 
 .box_text_five {
+    position: absolute;
     width: 500px;
     margin-left: 143.062px;
+    z-index: 2;
 }
 
 .abs {
@@ -307,7 +398,7 @@ a {
 }
 
 .theme_six {
-    background-color: rgb(165,42,42);
+    background-color: #bc382e;
     position: relative;
     overflow: hidden;
     height: 600px;
@@ -316,6 +407,8 @@ a {
 .box_text_six {
    width: 515.03px;
    margin-left: 143.062px;
+   position: absolute;
+   z-index: 4;
 }
 
 .document {
@@ -323,8 +416,8 @@ a {
     z-index: 1;
     width: 316.17px;
     height: 339.21px;
-    right: -40px;
-    top: 170px;
+    right: -50px;
+    top: 90px;
 }
 
 .family_picture {
@@ -332,8 +425,8 @@ a {
     z-index: 2;
     width: 427.77px;
     height: 375.12px;
-    right: 160px;
-    top: 110px;
+    right: 170px;
+    top: 45px;
 }
 
 .camera {
@@ -342,12 +435,12 @@ a {
     width: 371.96px;
     height: 344.84px;
     right: 370px;
-    top: 280px;
+    top: 205px;
 }
 
 .theme_seven {
     height: 600px;
-    background-color: rgb(255, 120, 0);
+    background-color: #e67400;
     position: relative;
 }
 
@@ -385,10 +478,7 @@ a {
     border-bottom: 1px solid rgb(245, 245, 245);
     margin: 0px 150px;
     padding: 50px 0px;
-}
-
-.footer_support_list {
-    margin: 0px 100px 0px 0px;
+    gap: 100px;
 }
 
 h3 {
@@ -419,4 +509,5 @@ h3 {
     background: white;
 }
 
+ /* For tablet: */
 
