@@ -397,6 +397,16 @@ a {
     right: -360px;
 }
 
+.animation_pic_five {
+    animation: pic_five linear 1s 1;
+}
+
+@keyframes pic_five {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
 .theme_six {
     background-color: #bc382e;
     position: relative;
@@ -437,6 +447,17 @@ a {
     right: 370px;
     top: 205px;
 }
+
+.animation_pic_six_a {
+    animation: pic_six_a linear 0.5s 1;
+}
+
+ @keyframes pic_six_a {
+    0% {right: 30px; top: 150px;}
+    100% {right: -50px; top: 90px;}
+ }
+
+
 
 .theme_seven {
     height: 600px;
@@ -509,5 +530,14 @@ h3 {
     background: white;
 }
 
- /* For tablet: */
+.language {
+    background-color:#303e47;
+    border: none;
+    color: #c4c7d7;
+    border-radius: 3px;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+
 
